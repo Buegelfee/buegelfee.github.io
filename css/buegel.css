@@ -1,0 +1,264 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+
+
+body {color: #000; font-family: 'Fira Sans', sans-serif;}
+#start {background: url("../img/slider-04.jpg"); background-size: cover; background-attachment: fixed;}
+#start2 {background: url("../img/slider-03.jpg"); background-size: cover; background-attachment: fixed;}
+
+/*Typografie--------------------------------------------------------*/
+p {font-size: 15px; font-weight: 300;}
+
+a {color: #A9F5F2; text-decoration: none;}
+a:hover {text-decoration: none; color: #04B4AE;}
+
+strong, b {font-weight: 500;}
+
+em, i {font-style: italic;}
+
+h1, h2, h3, h4, h5, h6 {color: #000; font-weight: 400; font-style: italic;  margin-top: 0;}
+
+h2 {font-size: 1.75em; line-height: 1.5em;}
+
+h3 {font-size: 1.35em; line-height: 1.5em;}
+
+h4 {font-size: 1.1em;line-height: 1.5em;}
+
+h5 {font-size: 0.9em; line-height: 1.5em;}
+
+h6 {font-size: 0.7em; line-height: 1.5em;}
+
+hr {border-top:1px #fff solid;}
+
+/*Navbar ---------------------------------------------------------------------------------------------------------------*/
+.navbar-right li a {color: #000 !important;}
+.navbar-right li a:hover {color: #04B4AE !important;}
+
+.navbar-default {
+    border:none;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    box-shadow:2px 2px 6px rgba(55,55,55, 0.3);
+    background:rgba(255,255,255,0.95);
+    padding: 10px;
+}
+.navbar-right {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.navbar-brand {
+    height: auto;
+    padding:0;    
+}
+.navbar-brand img {
+    width: 30%;  
+}
+
+/*Basic Layout ---------------------------------------------------------------------------------------------------------------------*/
+.fullwidthcontainer {
+  position:relative;	
+  padding-top:30px;
+}
+
+.content{margin-bottom: 40px;}
+
+.content ul {list-style-type: none; line-height: 2em; font-weight: 300; padding-left: 0; margin-top: 20px;}
+
+.content ul li:before {font-size: 18px; content:'»'; padding:0 5px 0 0; margin:0 0 0 0;}
+
+.infowrap {
+    background: white;
+    box-shadow:2px 3px 8px #222;
+    background: #FFF4F4; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #fff, #FFF4F4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #fff, #FFF4F4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #fff, #FFF4F4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #fff, #FFF4F4); /* Standard syntax (must be last) */
+    background-attachment: fixed;
+}
+
+#info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+   
+#info a {color: #04B4AE;}
+#info a:hover {color: #555;}
+
+
+#kontakt {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#start {
+    text-align: center;
+    padding-bottom: 180px;
+    padding-top: 270px;
+}
+
+#start a {margin-left: 20px; margin-right: 20px;}
+
+#start h1 {
+    color:#fff;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight:500;
+	border-top:none;
+    font-size: 70px !important;
+    font-style: normal;
+    text-shadow: 2px 3px 8px #222;
+    text-align: center;
+}
+
+
+#start2 {
+    text-align: center;
+    padding-bottom: 170px;
+    padding-top: 170px;
+}
+
+#start2 a {margin-left: 20px; margin-right: 20px;}
+
+#start2 h1 {
+    color:#fff;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight:500;
+    font-style: normal;
+	border-top:none;
+    font-size:70px;
+    text-shadow: 2px 3px 8px #222;
+    text-align: center;
+}
+
+.preise {border-top: 1px dotted #ddd; margin-top: 10px; padding-top: 15px;}
+
+
+/*Footer ---------------------------------------------------------------------------------------------------------------------*/
+.footer {
+	position: fixed-bottom;
+	color:#fff;
+	background-color: rgba(102,0,102, 1);
+    box-shadow:2px 3px 8px #222;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+.footer h1 {color: #fff; font-weight: 500; text-shadow: 2px 2px 6px rgba(55,55,55, 0.5);}
+.footer h2 {color: #fff; font-weight: 500; text-shadow: 2px 2px 6px rgba(55,55,55, 0.5);}
+.footer h3 {color: #fff; font-weight: 500; text-shadow: 2px 2px 6px rgba(55,55,55, 0.5);}
+.footer h4 {color: #fff; font-weight: 500; text-shadow: 2px 2px 6px rgba(55,55,55, 0.5);}
+.footer h5 {color: #fff; font-weight: 500; text-shadow: 2px 2px 6px rgba(55,55,55, 0.5);}
+.footer h6 {color: #fff; font-weight: 500; text-shadow: 2px 2px 6px rgba(55,55,55, 0.5);}
+.footer p {font-weight: 300;}
+.footer strong {letter-spacing: 0.05em;}
+.footer i{font-size: 22px;}
+
+.impressum {margin-top: 30px;}
+
+/*Button -----------------------------------------------------------------------*/
+.btn-default {
+    background: none;
+    border-radius: 4px;
+    border: 2px solid white;
+    color:#fff;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight:400;
+    font-size:150%;
+    margin-top:20px;
+    text-shadow: 2px 3px 8px #222;
+}
+
+.btn-default:hover {
+    background: white;
+    border: 2px solid white;
+    color:#000;
+    text-shadow: none;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: transparent;
+    color: #A9F5F2;
+    cursor: pointer;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.6s;
+    font-size: 18px;
+}
+
+button.accordion i{font-size: 15px;}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: transparent;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0;
+    background-color: transparent;
+    display: none;
+    margin-top: 20px;
+}
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+    display: block !important;
+}
+
+
+/* Media-Queries ------------------------------------ */
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+@media (max-width: 1200px) {
+    .navbar-right {margin-top: -70px;}
+}
+}
+
+/* Tablet Portrait */
+@media (max-width: 991px) {   
+}
+
+/* Mobile only */
+@media (max-width: 767px) {
+
+	.navbar-right {font-size: 16px; margin-top: 10px; padding-top: 10px;border-top: 1px solid #eee;}
+    
+    .navbar-collapse {border: none;}
+    
+    .navbar-brand img {margin-top: -60px; width: 40%;}
+    
+    .navbar-toggle {margin-top: 20px;}
+    
+    .navbar-toggle {background: transparent; border: none;}
+    
+    .navbar-toggle:hover {background: transparent !important;}
+    
+    .navbar-toggle .icon-bar {background: #000 !important;}
+
+    .navbar-toggle:hover .icon-bar{background: #04B4AE !important;}         
+    
+    .navbar-default {padding-top: 0px; padding-bottom: 0px;}
+    
+    .navbar-default > .container {padding-top: 0px; padding-bottom: 0px;}
+    
+    #start {padding-top: 180px; padding-bottom: 110px;}
+    
+    #start h1 {font-size: 32px !important;}
+    
+    #start a {font-size: 20px;}
+    
+    #start2 {padding-top: 130px; padding-bottom: 110px;}
+    
+    #start2 h1 {font-size: 32px;}
+    
+    #start2 a {font-size: 20px;}
+}
