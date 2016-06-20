@@ -230,23 +230,13 @@ div.panel.show {
 /* Mobile only */
 @media (max-width: 767px) {
 
-	.navbar-right {font-size: 16px; margin-top: 10px; padding-top: 10px;border-top: 1px solid #eee;}
+	.navbar-right {font-size: 18px; margin-top: -75px; padding-top: 10px; float: right;}
     
-    .navbar-collapse {border: none;}
+    .navbar-right li {float:left; }
     
-    .navbar-brand img {margin-top: -60px; width: 40%;}
+    .navbar-brand img {margin-top: 0px; width: 35%;}        
     
-    .navbar-toggle {margin-top: 20px;}
-    
-    .navbar-toggle {background: transparent; border: none;}
-    
-    .navbar-toggle:hover {background: transparent !important;}
-    
-    .navbar-toggle .icon-bar {background: #000 !important;}
-
-    .navbar-toggle:hover .icon-bar{background: #04B4AE !important;}         
-    
-    .navbar-default {padding-top: 0px; padding-bottom: 0px;}
+    .navbar-default {padding-top: 10px; padding-bottom: 10px;}
     
     .navbar-default > .container {padding-top: 0px; padding-bottom: 0px;}
     
@@ -261,4 +251,12 @@ div.panel.show {
     #start2 h1 {font-size: 32px;}
     
     #start2 a {font-size: 20px;}
+    
+    #start {background-attachment: auto;}
+    #start2 {background-attachment: auto;}
+}
+
+@media (max-width: 460px){
+    .navbar-right {font-size: 12px; margin-top: -45px; padding-top: 10px; float: right;}
+    .navbar-default {padding-bottom: 0px;}
 }
