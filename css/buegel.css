@@ -252,8 +252,8 @@ div.panel.show {
     
     #start2 a {font-size: 20px;}
     
-    #start {background-attachment: auto;}
-    #start2 {background-attachment: auto;}
+    #start {background-attachment: initial;}
+    #start2 {background-attachment: initial;}
 }
 
 @media (max-width: 460px){
