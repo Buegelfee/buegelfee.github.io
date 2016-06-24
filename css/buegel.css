@@ -260,6 +260,11 @@ div.panel.show {
     
     #start {background-attachment: initial;}
     #start2 {background-attachment: initial;}
+    
+    .me {
+    border-top: none;
+    padding-top: 0;
+    }
 }
 
 @media (max-width: 460px){
