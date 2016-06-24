@@ -141,7 +141,7 @@ hr {border-top:1px #fff solid;}
     background: -moz-linear-gradient(bottom right, #fff, #FFF4F4); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom right, #fff, #FFF4F4); /* Standard syntax (must be last) */
     background-attachment: fixed;
-    margin-top: 140px;
+    margin-top: 100px;
     padding:20px;
     padding-bottom: 40px;
     padding-top: 40px;
