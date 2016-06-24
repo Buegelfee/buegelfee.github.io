@@ -2,7 +2,12 @@
 @import url(font-awesome.min.css);
 
 
-body {color: #000; font-family: 'Fira Sans', sans-serif;}
+body {color: #000; font-family: 'Fira Sans', sans-serif; 
+    -webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	 hyphens: auto;}
+
 #start {background: url("../img/slider-04.jpg"); background-size: cover; background-attachment: fixed;}
 #start2 {background: url("../img/slider-03.jpg"); background-size: cover; background-attachment: fixed;}
 

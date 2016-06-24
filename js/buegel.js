@@ -42,22 +42,7 @@ jQuery(document).ready(function() {
 }); 
 
 
-/*******************************************************************************/
-/*Magnific Popup*/
-$('.lightbox').magnificPopup({
-		type: 'image',
-		closeOnContentClick: true,
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			verticalFit: true,
-			titleSrc: 'rel'
-		}		
-	});	
+
 
 /******************************************************************************/
 //Anchor-scrolling with nav-offset
