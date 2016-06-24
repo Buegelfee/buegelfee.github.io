@@ -133,6 +133,25 @@ hr {border-top:1px #fff solid;}
 
 .preise {border-top: 1px dotted #ddd; margin-top: 10px; padding-top: 15px;}
 
+.anreisser {background: white;
+    box-shadow:2px 3px 8px #222;
+    background: #FFF4F4; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #fff, #FFF4F4); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #fff, #FFF4F4); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #fff, #FFF4F4); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #fff, #FFF4F4); /* Standard syntax (must be last) */
+    background-attachment: fixed;
+    margin-top: 140px;
+    padding:20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align:left;}
+
+.anreisser h2 {
+        font-size: 32px;
+        line-height: 1.1em;
+    }
+
 
 /*Footer ---------------------------------------------------------------------------------------------------------------------*/
 .footer {
