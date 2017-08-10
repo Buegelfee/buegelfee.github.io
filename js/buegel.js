@@ -11,38 +11,15 @@ for (i = 0; i < acc.length; i++) {
     }
 }
 
+/****************************************************************************/
+// Mobile Navigation durch Klick schließen
+$(".navbar-collapse ul li a").click(function () {
+	$('.navbar-collapse').collapse('hide');
+});
 
-
-	
-
-/******************************************************************************
-	Transforms the basic Twitter Bootstrap Carousel into Fullscreen Mode
-	@author Fabio Mangolini // modified FK // setting height manual
-     http://www.responsivewebmobile.com
-	 Setting height 4times
-******************************************************************************/
-jQuery(document).ready(function() {
-	$('.carousel').carousel({
-    	pause: "false",
-    	interval: 10000
-	});
-
-	$('.carousel').css({'width': $(window).outerWidth(), 'height': $(window).outerHeight()*1});
-	$('.carousel .item').css({ 'width': '100%', 'height': $(window).outerHeight()*1});
-	$('.carousel-inner div.item img').each(function() {
-		var imgSrc = $(this).attr('src');
-		$(this).parent().css({'background': 'url('+imgSrc+') center center no-repeat', '-webkit-background-size': 'cover', '-moz-background-size': 'cover', '-o-background-size': 'cover', 'background-size': 'cover'});
-		$(this).remove();
-	});
-
-	$(window).on('resize', function() {
-		$('.carousel').css({'width': $(window).outerWidth(), 'height': $(window).outerHeight()*1});
-		$('.carousel .item').css({ 'width': '100%', 'height': $(window).outerHeight()*1});
-	});
-}); 
-
-
-
+$('body').scrollspy({
+	target: ".navbar"
+});
 
 /******************************************************************************/
 //Anchor-scrolling with nav-offset
