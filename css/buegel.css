@@ -38,6 +38,7 @@ hr {border-top:1px #fff solid;}
 /*Navbar ---------------------------------------------------------------------------------------------------------------*/
 .navbar-right li a {color: #000 !important;}
 .navbar-right li a:hover {color: #04B4AE !important;}
+.navbar-right li.active a {color: #04B4AE !important; background: none !important;}
 
 .navbar-default {
     border:none;
