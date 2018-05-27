@@ -303,4 +303,7 @@ div.panel.show {
         margin-top: -8px;
         padding-bottom: 4px;
     }
+    .mobile-bar a {
+        font-size: 12px;
+    }
 }
