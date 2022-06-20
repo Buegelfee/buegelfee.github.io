@@ -2,7 +2,7 @@
 @import url(font-awesome.min.css);
 
 
-body {color: #000; font-family: 'Fira Sans', sans-serif; 
+body {color: #000; font-family: 'Fira Sans', sans-serif;
     -webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
@@ -12,7 +12,7 @@ body {color: #000; font-family: 'Fira Sans', sans-serif;
 #start2 {background: url("../img/slider-03.jpg"); background-size: cover; background-attachment: fixed;}
 
 /*Typografie--------------------------------------------------------*/
-p {font-size: 15px; font-weight: 300;}
+p {font-size: 17px; font-weight: 300;}
 
 a {color: #A9F5F2; text-decoration: none;}
 a:hover {text-decoration: none; color: #04B4AE;}
@@ -21,11 +21,11 @@ strong, b {font-weight: 500;}
 
 em, i {font-style: italic;}
 
-h1, h2, h3, h4, h5, h6 {color: #000; font-weight: 400; font-style: italic;  margin-top: 0;}
+h1, h2, h3, h4, h5, h6 {color: #000; font-weight: 400; font-style: italic;  margin-top: 0; margin-bottom: 30px;}
 
-h2 {font-size: 1.75em; line-height: 1.5em;}
+h2 {font-size: 40px; line-height: 1.5em;}
 
-h3 {font-size: 1.35em; line-height: 1.5em;}
+h3 {font-size: 30px; line-height: 1.5em;}
 
 h4 {font-size: 1.1em;line-height: 1.5em;}
 
@@ -57,15 +57,15 @@ hr {border-top:1px #fff solid;}
 }
 .navbar-brand {
     height: auto;
-    padding:0;    
+    padding:0;
 }
 .navbar-brand img {
-    width: 56%;  
+    width: 56%;
 }
 
 /*Basic Layout ---------------------------------------------------------------------------------------------------------------------*/
 .fullwidthcontainer {
-  position:relative;	
+  position:relative;
   padding-top:30px;
 }
 
@@ -73,12 +73,14 @@ hr {border-top:1px #fff solid;}
 
 .content ul {list-style-type: none; line-height: 2em; font-weight: 300; padding-left: 0; margin-top: 20px;}
 
-.content ul li:before {font-size: 18px; content:'»'; padding:0 5px 0 0; margin:0 0 0 0;}
+.content ul li {font-size: 17px;}
+
+.content ul li:before {font-size: 20px; content:'»'; padding:0 5px 0 0; margin:0 0 0 0;}
 
 .infowrap {
     background: white;
     box-shadow:2px 3px 8px #222;
-    background: #FFF4F4; /* For browsers that do not support gradients */    
+    background: #FFF4F4; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(left top, #fff, #FFF4F4); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(bottom right, #fff, #FFF4F4); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(bottom right, #fff, #FFF4F4); /* For Firefox 3.6 to 15 */
@@ -91,7 +93,7 @@ hr {border-top:1px #fff solid;}
     padding-bottom: 20px;
 }
 
-   
+
 #info a {color: #04B4AE;}
 #info a:hover {color: #555;}
 
@@ -259,37 +261,37 @@ div.panel.show {
 @media (min-width: 1200px) {
 }
 /* Tablet Portrait */
-@media (max-width: 991px) {   
+@media (max-width: 991px) {
 }
 
 /* Mobile only */
 @media (max-width: 767px) {
 
 	.navbar-right {font-size: 18px; margin-top: -55px; padding-top: 10px; float: right;}
-    
+
     .navbar-right li {float:left; }
-    
-    .navbar-brand img {margin-top: 0px; width: 35%;}        
-    
+
+    .navbar-brand img {margin-top: 0px; width: 35%;}
+
     .navbar-default {padding-top: 10px; padding-bottom: 10px;}
-    
+
     .navbar-default > .container {padding-top: 0px; padding-bottom: 0px;}
-    
+
     #start {padding-top: 180px; padding-bottom: 110px;}
-    
+
     #start h1 {font-size: 32px !important;}
-    
+
     #start a {font-size: 20px;}
-    
+
     #start2 {padding-top: 130px; padding-bottom: 110px;}
-    
+
     #start2 h1 {font-size: 32px;}
-    
+
     #start2 a {font-size: 20px;}
-    
+
     #start {background-attachment: initial;}
     #start2 {background-attachment: initial;}
-    
+
     .me {
     border-top: none;
     padding-top: 0;
